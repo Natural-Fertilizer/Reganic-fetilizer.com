@@ -1,0 +1,98 @@
+*{
+margin: 0%;
+padding: 0;
+text-align: center;    
+}
+body{
+ background-image: url(image/pexels-alexandr-podvalny-7768447.jpg);   
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+.h11{
+color: rgb(142, 236, 0);    
+font-size: 50px;
+}
+.h31{
+    color: white;
+    font-size: 30px;
+margin-left:  500px;
+margin-right: 500px;
+}
+.form{
+    background-color: rgba(0, 0, 0, 0.226);   
+    width: 50%;
+    height: 105%;
+    margin-top: 40px;
+    position: absolute;
+    left:400px;
+
+   }
+   .form p{
+    text-align: left;
+    margin: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+   .form input{
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    border-radius: 50px 50px;
+    font-size: 15px;
+}
+ .form input:hover{
+   background-color: transparent;
+   color: white; 
+}
+::placeholder{
+color: yellowgreen;
+font-weight: bolder;
+}
+label{
+  color: rgb(5, 150, 0);  
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.checkbox{
+    margin: 0%;
+    padding: 0%;
+}
+.label0{
+    margin-left: 2px;  
+
+}
+.label1{
+  margin-left: 40px;  
+}
+.label2{
+    margin-left: 50px;  
+
+}
+option{
+font-size: 15px;
+font-family: cursive;
+color: rgb(184, 2, 2);
+}
+select{
+  font-size: larger;  
+  color: rgb(23, 161, 23);
+  border-radius: 50px 30px;
+}
+button{
+    padding: 15px;
+    border: 0;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: green;
+}
+button:hover{
+   border-radius: 0%; 
+   size: 140%;
+
+}
